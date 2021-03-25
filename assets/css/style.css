@@ -30,14 +30,14 @@ header .navbar-brand {
     color: white;
 }
 header .navbar-brand:hover {
-    color: var(--corTxtTerciaria);
+    color: var(--corTxtQuaternaria);
     transition: 0.5s;
 }
 header ul li a {
     color: white;
 }
 header ul li a:hover {
-    color: var(--corTxtTerciaria);
+    color: var(--corTxtQuaternaria);
     transition: 0.5s;
 }
 header ul li button {
