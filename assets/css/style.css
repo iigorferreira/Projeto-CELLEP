@@ -21,6 +21,34 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 }
 
 /* HEADER */
+header #menu {
+    background-color: var(--corTxtPrimaria);
+    padding: 10px 15%;
+}
+
+header .navbar-brand {
+    color: white;
+}
+header .navbar-brand:hover {
+    color: var(--corTxtTerciaria);
+    transition: 0.5s;
+}
+header ul li a {
+    color: white;
+}
+header ul li a:hover {
+    color: var(--corTxtTerciaria);
+    transition: 0.5s;
+}
+header ul li button {
+    background-color: var(--corTxtSecundaria);
+    color: white;
+}
+header ul li button:hover {
+    color: var(--corTxtPrimaria);
+    background-color: var(--corTxtTerciaria);
+    transition: 0.5s;
+}
 
 /* MAIN */
 #sobre h1 {
@@ -35,7 +63,15 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 #contato h1 {
     color: var(--corTxtPrimaria);
 }
-
+#contato form .btn {
+    background-color: var(--corTxtSecundaria);
+    color: white;
+}
+#contato form .btn:hover {
+    background-color: var(--corTxtPrimaria);
+    color: var(--corTxtTerciaria);
+    transition: 0.5s;
+}
 /* FOOTER */
 footer {
     margin-top: 100px;
