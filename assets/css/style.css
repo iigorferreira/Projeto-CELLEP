@@ -1,7 +1,20 @@
+/*
+Autor: Igor Ferreira
+Author URI: https://kenzie.com.br;
+Description: Descrição do thema.
+Version: 1.0
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** HEADER
+**** BODY
+**** FOOTER
+*/
 
 
-
-/* PALETA DE CORES */
+/* DECLARAÇÃO DE VARIAVEIS */
 :root {
     --corTxtPrimaria: #2626bc;
     --corTxtSecundaria: #6583fe;
@@ -10,7 +23,6 @@
 }
 
 /* ESTILOS GERAIS */
-
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
     margin: 0;
     padding: 0;
@@ -50,7 +62,7 @@ header ul li button:hover {
     transition: 0.5s;
 }
 
-/* MAIN */
+/* BODY */
 #sobre h1 {
     color: var(--corTxtPrimaria);
 }
