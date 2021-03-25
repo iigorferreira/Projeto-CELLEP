@@ -1,3 +1,14 @@
+
+
+
+/* PALETA DE CORES */
+:root {
+    --corTxtPrimaria: #2626bc;
+    --corTxtSecundaria: #6583fe;
+    --corTxtTerciaria: #97ffd2;
+    --corTxtQuaternaria: #ffa8cf;
+}
+
 /* ESTILOS GERAIS */
 
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
@@ -12,12 +23,24 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 /* HEADER */
 
 /* MAIN */
+#sobre h1 {
+    color: var(--corTxtPrimaria);
+}
+#servicos h1 {
+    color: var(--corTxtPrimaria);
+}
+#servicos h3 {
+    color: var(--corTxtSecundaria);
+}
+#contato h1 {
+    color: var(--corTxtPrimaria);
+}
 
 /* FOOTER */
 footer {
     margin-top: 100px;
     padding: 50px 0 ;
-    background-color: teal;
+    background-color: var(--corTxtPrimaria);
 }
 footer  .container {}
 footer nav .redes-sociais {
@@ -32,11 +55,11 @@ footer nav .redes-sociais li{
     text-align: center;
 }
 footer nav .redes-sociais li a{
-    color: white;
+    color: var(--corTxtTerciaria);
     text-decoration: none;
 }
 footer nav .redes-sociais li a:hover{
-    color: cornflowerblue;
+    color: var(--corTxtQuaternaria);
     text-decoration: none;
     transition: 0.5s;
 }
@@ -55,5 +78,11 @@ footer nav .copyright {
     text-align: center;
 }
 footer nav .copyright a {
+    color: var(--corTxtTerciaria);
+    text-decoration: none;
     cursor: pointer;
+}
+footer nav .copyright a:hover {
+    color: var(--corTxtQuaternaria);
+    transition: 0.5s;
 }
